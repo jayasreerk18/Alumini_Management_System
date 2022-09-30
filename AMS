@@ -1,0 +1,60 @@
+class alumni:
+def __init__(self, aname, areg, dob, batchnumber, emailid):
+self.aname = aname
+self.areg = areg
+self.dob = dob
+self.batchnumber = batchnumber
+self.emailid = emailid
+def accept(self, aname, areg, dob, batchnumber, emailid):
+list = alumni(self, aname, areg, dob, batchnumber, emailid)
+list.append(list)
+def display(self, list):
+print(list)
+def search(self, aname, areg, dob, batchnumber, emailid):
+i = list.search(areg)
+list[i].regno = areg
+def search(self, aname, areg, dob, batchnumber, emailid):
+list.find(self, aname, areg, dob, batchnumber, emailid)
+def alumnievents(self):
+print(events)
+list = []
+a = &#39;s&#39;
+while (a == &#39;s&#39;):
+print(&quot;\n1.register alumni\n2.view alumni\n&quot; &quot;3.edit alumni\n4.search
+alumni&quot; &quot;\n5.view alumni events\n6.Exit&quot;)
+ch = int(input(&quot;Enter choice:&quot;))
+if (ch == 1):
+aname = input(&quot;enter alumni name:&quot;)
+list.append(aname)
+areg = input(&quot;enter alumni register number:&quot;)
+list.append(areg)
+dob = input(&quot; enter date of birth:&quot;)
+list.append(dob)
+batchnumber = input(&quot;enter batchnumber:&quot;)
+list.append(batchnumber)
+emailid = input(&quot;enter emailid:&quot;)
+list.append(emailid)
+print(&quot;s:continue &quot;)
+a = input(&quot;do you want to continue?&quot;)
+elif (ch == 2):
+print(list)
+print(&quot;s:continue &quot;)
+a = input(&quot;do you want t0 continue?&quot;)
+
+elif (ch == 3):
+aname = input(&quot;enter alumni name:&quot;)
+list.append(aname)
+areg = input(&quot;enter alumni register number:&quot;)
+list.append(areg)
+print(&quot;s:continue&quot;)
+a = input(&quot;do you want to continue?&quot;)
+elif (ch == 4):
+list.find(alumni)
+elif (ch == 5):
+events = input(&quot;football,cricket,hockey&quot;)
+print(&quot;s:continue&quot;)
+a = input(&quot;do you want to continue?&quot;)
+else:
+print(&quot;exits&quot;)
+print(&quot;s:continue &quot;)
+a = input(&quot;s:continue&quot;)
